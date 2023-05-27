@@ -71,6 +71,11 @@ a:hover {
 }
 .top-bar a {
   color: #184CA1;
+  font-weight: 600;
+}
+
+.topbar_title {
+  font-weight: 600;
 }
 
 .site-navbar {
@@ -104,7 +109,7 @@ a:hover {
   margin-bottom: 0;
 }
 .site-navbar .site-navigation .site-menu .active {
-  color: #007bff !important;
+  color: #184CA1 !important;
 }
 .site-navbar .site-navigation .site-menu a {
   text-decoration: none !important;
@@ -113,17 +118,20 @@ a:hover {
 .site-navbar .site-navigation .site-menu > li {
   display: inline-block;
 }
+
 .site-navbar .site-navigation .site-menu > li > a {
   margin-left: 15px;
   margin-right: 15px;
   padding: 20px 0px;
-  color: #000 !important;
+  color: #707070 !important;
+  font-weight: 600;
   display: inline-block;
   text-decoration: none !important;
 }
 .site-navbar .site-navigation .site-menu > li > a:hover {
-  color: #007bff;
+  color: #184CA1;
 }
+
 .site-navbar .site-navigation .site-menu .has-children {
   position: relative;
 }
@@ -422,10 +430,15 @@ a:hover {
   float: left;
   width: 100%;
 }
+
 .site-mobile-menu .site-nav-wrap > li > a {
-  padding-left: 20px;
-  font-size: 20px;
+	padding-left: 91px;
+	font-size: 20px;
+	border: 0.5px solid #fff;
+	background: #184ca1;
+	color: #fff;
 }
+
 .site-mobile-menu .site-nav-wrap > li > ul {
   padding: 0;
   margin: 0;
@@ -490,13 +503,15 @@ a:hover {
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
 }
 .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-  color: #007bff;
+  color: #184CA1;
 }
+
 .sticky-wrapper.is-sticky .site-navbar ul li a {
-  color: #000 !important;
+  color: #707070 !important;
 }
+
 .sticky-wrapper.is-sticky .site-navbar ul li a.active {
-  color: #007bff !important;
+  color: #184CA1 !important;
 }
 .sticky-wrapper .shrink {
   padding-top: 0px !important;
@@ -539,7 +554,7 @@ main {
 }
 
 #home .home-image .image-section {
-  background-color: #e6d1d14d;
+  background-image: linear-gradient(to bottom right, #0077FF,#00228D);
   border-radius: 10px;
 }
 
@@ -583,6 +598,7 @@ main {
 
 
 /* ================ BRAND IMAGE =============== */
+
 #brand_image .owl-prev, .owl-next {
   display: none;
 }
@@ -599,7 +615,7 @@ main {
 #works h1 {
 	font-size: 2.5rem;
 	font-weight: 700;
-  color: #6a6a6a;
+  color: #707070;
 }
 
 .work-section-2 ul {
@@ -609,7 +625,7 @@ main {
 
 .work-section-2 ul li {
   margin-left: -30px;
-  color: #6a6a6a;
+  color: #707070;
 }
 
 .btn-link {
@@ -642,7 +658,7 @@ main {
 #team #works h1 {
 	font-size: 2.5rem;
 	font-weight: 700;
-	color: #6a6a6a;
+	color: #707070;
 }
 
 
@@ -690,7 +706,7 @@ main {
 
 #pricing_plan {}
 #pricing_plan .header_title {
-	color: #6a6a6a;
+	color: #707070;
 }
 
 
@@ -729,7 +745,7 @@ legend span {
 
 /* =========== CLIENT REVIEWS ============= */
 #client-review .client-reviews_title {
-  color: #6a6a6a;
+  color: #707070;
 }
 .client_reviews_button {
   position: relative;
@@ -740,7 +756,7 @@ legend span {
 
 /* =========== LATEST POSTS ============= */
 #latest-posts .latest_posts_title {
-  color: #6a6a6a;
+  color: #707070;
 }
 
 
@@ -805,7 +821,7 @@ legend span {
 
 /* =========== CONTACT ============= */
 footer {
-  background-color: #184CA1;
+  background-image: linear-gradient(#262262, #184CA1);
   color: #fff;
   padding: 150px 0 180px 0;
 }
@@ -854,6 +870,10 @@ footer {
 }
 
 /* ==== social icon ==== */
+.social-icon a {
+  color: #184CA1;
+  margin: 5px;
+}
 .social-facebook {
 	padding: 10px 16px;
 	border-radius: 50%;
