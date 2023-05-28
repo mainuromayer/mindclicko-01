@@ -27,7 +27,7 @@ body.offcanvas-menu:before {
 
 p {
   color: #707070;
-  font-weight: 300; 
+  font-weight: 400; 
 }
 
 
@@ -807,6 +807,74 @@ legend span {
 #phone[type=number] {
   -moz-appearance: textfield;
   /* Firefox */
+}
+
+#fname {
+	width: 100%;
+	padding: 10px 15px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-clip: padding-box;
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: .375rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  overflow: visible;
+}
+
+#lname {
+	width: 100%;
+	padding: 10px 15px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-clip: padding-box;
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: .375rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  overflow: visible;
+}
+
+#email {
+	width: 100%;
+	padding: 10px 15px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-clip: padding-box;
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: .375rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  overflow: visible;
+}
+
+#phone {
+	width: 100%;
+	padding: 10px 15px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-clip: padding-box;
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: .375rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  overflow: visible;
 }
 
 
